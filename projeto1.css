@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    
+}
+
+h1 {
+    font-size: 70px;
+    margin: 10px 0 5px;
+    
+    color: #a0c4ff;
+    text-align: center;
+}
+
+.styling {
+    font-weight: 300;
+    color: #bdb2ff;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: #757bc8;
+    border: 1px solid;
+    border-radius: 30px;
+    color: #fffffc;
+    padding-bottom: 20px;
+    text-align: center;
+} 
+
+
+#typeTask {
+    text-align: center;
+    align-items: center;
+    padding: 0.2rem;
+    height: 25px;
+    outline: none;
+    border: none;
+    width: auto;
+    font-size: 1rem;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#newActivity {
+
+    padding: 0.2rem;
+    height: 25px;
+    outline: none;
+    border: none;
+    width: auto;
+    font-size: 1rem;
+    margin: 2px;
+    border-radius: 5px;
+    
+}
+
+#addButton {
+    background: white;
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#addButton:hover {
+    opacity: 0.7;
+}
+
+#tasks {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 500px;
+
+
+}
+
+.taskStyle {
+    margin: 200px;
+    
+}
+
+.deleteButton {
+
+    margin-right: 10px;
+}
+
+input {
+    margin: 5px;
+}
