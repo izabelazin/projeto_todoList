@@ -24,16 +24,20 @@ h1 {
 }
 
 .content {
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
     background: #757bc8;
     border: 1px solid;
     border-radius: 30px;
     color: #fffffc;
     padding-bottom: 20px;
-    text-align: center;
+    
 } 
 
+.checkbox, .taskStyle {
+    float: left;
+    margin-left: 30px;
+}
 
 #typeTask {
     text-align: center;
@@ -77,25 +81,30 @@ h1 {
 }
 
 #tasks {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     margin-top: 20px;
     width: 500px;
 
 
 }
 
-.taskStyle {
-    margin: 200px;
-    
-}
-
 .deleteButton {
-
     margin-right: 10px;
 }
 
 input {
     margin: 5px;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+
+.taskStyle {
+    width: 270px;
+}
+
+.listTasks {
+    text-align: center;
 }

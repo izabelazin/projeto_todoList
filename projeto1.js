@@ -61,7 +61,7 @@ const renderItens = () => {
     items.forEach((task, i) => {
         const taskId = `task${i}`
         console.log(`adicionando task ${task}`)
-        tasks.innerHTML += `<p><input type="checkbox" onclick="handleCheckboxClick(this, '${taskId}')"><span class="taskStyle" id="${taskId}">${task}</span><button class="deleteButton" onclick="deleteButton(${i})">x</button></p>`
+        tasks.innerHTML += `<p><input class="checkbox" type="checkbox" onclick="handleCheckboxClick(this, '${taskId}')"><span class="taskStyle" id="${taskId}">${task}</span><button class="deleteButton" onclick="deleteButton(${i})">x</button></p>`
 
     });
 
